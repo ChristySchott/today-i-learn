@@ -1,0 +1,11 @@
+Os pré-processadores são programas que recebem como entrada textos e efetuam conversões léxicas nele, ou seja, entra com uma sintaxe, essa sintaxe é pré-processada para gerar outra sintaxe. As conversões podem incluir substituição de palavras, inclusão condicional e inclusão de outros arquivos.
+
+Os principais pré-processadores para CSS são o SASS, o LESS e o Stylus, porém, como o SASS está a frente dos outros dois, tanto em utilização quanto em recursos, optei por aprendê-lo.
+
+Os benefícios são muitos, desde a criação de Variáveis, Condicionais, Repetição, Imports, Funções, Mixins, e até Extends que possibilitam você extender propriedades, evitando a duplicação de código.
+Como eu curto muito CSS, fiquei encantado pelo o que o SASS pode fazer, reduzi MUITO meu código, tornando ele mais légivel e coeso.
+
+Sério, usar variáveis no CSS é incrível. Existem muitos canais no YouTube que tem cursos completos e gratuitos sobre a ferramenta. Recomendo pesquisarem mais e estudar o SASS.
+Pude dominar a ferramenta em um domingo, estudando da manhã até o fim da tarde, e isso ja tem me ajudado muito no desenvolvimento de sites.
+
+RECOMENDO: pesquisem sobre aninhamento e mixins no SASS.
