@@ -1,10 +1,7 @@
 
 Não existe uma forma direta de comparar objetos no JS, mas você pode chegar comparando as propriedades.
 
-var compareObjects = function(a, b) {
-  if (Object.keys(a).length !== Object.keys(b).length) {
-    return false;  
-  }
+**var comparando = function(a, b) { if (Object.keys(a).length !== Object.keys(b).length) { return false; }**
 
   for (var i in a) {
     if (a[i] !== b[i]) { return false; }
@@ -12,20 +9,9 @@ var compareObjects = function(a, b) {
   return true;
 };
 
-The  `Object.keys(a).length`  may not work in older browsers, e.g. IE8. In that case, you can do something like this.
+O  `Object.keys(a).length`  talvez não funcione em browsers antigos.
 
-var compareObjects = function(a, b) {
-  for (var i in a) {
-    if (!b.hasOwnProperty(i)) { return false; }
-    if (a[i] !== b[i]) { return false; }
-  }
-
-  for (var i in b) {
-    if (!a.hasOwnProperty(i)) { return false; }
-  }
-  return true;
-};
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjUzMzI1MF19
+eyJoaXN0b3J5IjpbLTE4NDE5MzY1NDldfQ==
 -->
