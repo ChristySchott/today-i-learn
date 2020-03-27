@@ -1,8 +1,8 @@
-#Estruturas de Repetição	
+# Estruturas de Repetição	
 
 Começando os estudos sobre Delphi, tive facilidade com as estruturas de repetição, pois é semelhante ás estruturas de outras linguagens.
 
-####For:
+#### For:
 executa repetitivamente um comando enquanto é atribuído um valor incremental a uma variável de controle, que chamamos de contador do for. A repetição, ou o loop só é interrompido quando o contador atinge o seu limite, que é definido também pela instrução for.
 
 Sintaxe:
@@ -27,7 +27,7 @@ inicio = valor a partir do qual o loop deve iniciar, qualquer valor inteiro.
 
 fim = valor limite para o término do loop, qualquer valor inteiro.
 
-######Somando até 10:
+###### Somando até 10:
 
     1. procedure Somar;
     2. var
@@ -43,7 +43,7 @@ To declarando duas variáveis, a Soma e o Contador. Esta última estou usando co
 
 ----------
 
-####While..do:
+#### While..do:
  tem o seu funcionamento controlado por condição. Desta forma, poderá executar um determinado conjunto de instruções enquanto a condição verificada permanecer verdadeira.
 
 No momento em que a condição se torna falsa, o processamento da rotina é desviado para fora do loop. Se a condição for falsa logo no início do loop, as instruções contidas no while…do serão ignoradas.
@@ -63,7 +63,7 @@ ou (com mais de uma instrução):
        6.<…>
        7. end;
 
-######Somando até 10:
+###### Somando até 10:
 	    
 	   1. procedure Somar;
 	   2. var
@@ -76,7 +76,7 @@ ou (com mais de uma instrução):
 
 ----------
 
-####Repeat..until:
+#### Repeat..until:
   é parecida com a estrutura while…do, mas a principal diferença entre elas, é que no repeat…until, o teste lógico é efetuado no final do loop.
 
 Essa estrutura irá processar um conjunto de instruções até que a condição se torne verdadeira. 
@@ -93,7 +93,7 @@ Sintaxe:
 
 
 
-######Somando até 10:
+###### Somando até 10:
 	    
 	   1. procedure Somar;
 	   2. var
