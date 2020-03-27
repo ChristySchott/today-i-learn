@@ -17,7 +17,7 @@ Não importa se essa declaração for chamada antes da função, desde que elas 
 						};
 
 
-####Importante:
+#### Importante:
 Ela só pode ser chamada antes se for declarada daquele jeito, deste outro modo não funcionaria:
 
         console.log(square(5));
